@@ -104,6 +104,30 @@ html
     .time {
       background-image: url('images/time.gif')
     }
+    
+    .current {
+      background-image: url('images/tsunami.gif')
+    }
+    
+    .turtles {
+      background-image: url('images/turtles.gif')
+    }
+    
+    .small {
+      background-image: url('images/small.jpg')
+    }
+    
+    .combined {
+      background-image: url('images/combined.gif')
+    }
+    
+    .physical {
+      background-image: url('images/physical.gif')
+    }
+    
+    .lazy {
+      background-image: url('images/lazy.gif')
+    }
 
   body
 
@@ -115,10 +139,10 @@ html
         h4 With your host Myles Borins
         h4
           a(href='https://twitter.com/thealphanerd') @thealphanerd
-        p  JSConf UY 2016
+        p  EmpireJS 2016
         
       section(data-bespoke-backdrop='hello')
-        h1 ¡Hola!
+        h1 Howdy!
         
       section
         h1 My Name is Myles
@@ -146,15 +170,18 @@ html
       
       section(data-bespoke-backdrop='confused')
         h1 Many people are pretty darn confused about how they work
-        
-      section
-        img(src='images/news.gif' alt='Good news everyone')
 
       section(data-bespoke-backdrop='complicated')
-        h1 While it may seem complicated
+        h1 #REALTALK
+        h2 this stuff is complicated
       
-      section
-        img(src='images/you-can-do-it.gif' alt='Rob Sneider is JS the silly parts')
+      section(data-bespoke-backdrop='turtles')
+        h2 you do not need to understand everything
+        h3 to contribute in a meaningful way
+
+      section(data-bespoke-backdrop='small')
+        h2 starting from a small piece
+        h3 let's see how it becomes something bigger
 
       section
         h2 What is semver?
@@ -172,11 +199,11 @@ html
 
       section
         h2 Current stable:
-        h3 v5.10.1
+        h3 v6.2.0
         h2 Current Active LTS:
-        h3 v4.4.3
+        h3 v4.4.5
         h2 Current Maintenance LTS:
-        h3 v0.10.44 & v0.12.13
+        h3 v0.10.45 & v0.12.14
 
       section(data-bespoke-backdrop='fork')
         h1 Some History of
@@ -205,7 +232,7 @@ html
       section
         h1 v1 - v3 were all part of the iojs project
 
-      section
+      section(data-bespoke-backdrop='combined')
         h2 Node was put into a foundation 
         h3 The projects merged as v4.0.0
         h3 September of 2015
@@ -213,17 +240,20 @@ html
       section
         img(src='images/schedule.png' alt='Node.js LTS schedule')
 
-      section(data-bespoke-backdrop='stable')
-        h1 What is Stable?
+      section(data-bespoke-backdrop='current')
+        h1 What is Current?
 
-      section
+      section(data-bespoke-backdrop='physical')
         h1 What is Active LTS?
       
-      section
+      section(data-bespoke-backdrop='lazy')
         h1 What is Maintenance LTS?
       
       section
         h1 What about Master?
+        
+      section(data-bespoke-backdrop='stable')
+        h1 What happened to Stable?
 
       section
         h1 So how the heck do we manage all of this?
@@ -236,11 +266,11 @@ html
 
       section
         h2 We maintain release branches
-        h3 v0.10.x v0.12.x v4.x and v5.x
+        h3 v0.10.x v0.12.x v4.x v5.x and v6.x
 
       section
-        h1 When we are ready for a stable release
-        h3 We branch off of v5.x
+        h1 When we are ready for a current release
+        h3 We branch off of v6.x
         h3 And cherry pick commits from Master
 
       section
@@ -364,17 +394,15 @@ html
         
       section
         h1 Nope!
-      
-      section
-        h1 v6.0 will be released at the end of this month
 
       section
-        h2 It will come packed with v8 5
+        h2 v6 comes packed with v8 5
         h3 And with that lots of es6 goodies
       
       section
-        h2 After six months as stable
+        h2 After six months as current
         h3 It will have 30 months in LTS
+        h4 Starting October 2016
       
       section
         h2 Be prepared for breakages
